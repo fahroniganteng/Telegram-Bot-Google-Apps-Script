@@ -13,6 +13,9 @@ var token = '[put your bot token here]';
 
 // only need to run once
 function setWebhook() {
+  // only to create permission
+  let drive = DriveApp.getRootFolder();
+  
   let Bot = new TelegramBot();
   let result = Bot.request('setWebhook', {
     url: 'https://script.google.com/macros/s/[Google_Apps_Script_file_ID]/exec'
