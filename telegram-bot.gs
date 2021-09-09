@@ -30,8 +30,6 @@ function setWebhook() {
 // Global variable to store post data from telegram
 var TelegramData;
 function doPost(e) {
-  let ws = SpreadsheetApp.getActiveSheet();
-  ws.appendRow([e.postData.type, e.postData.contents]);
   if (e.postData.type == "application/json") {
     TelegramData = JSON.parse(e.postData.contents);
     let Bot = new TelegramBot();
