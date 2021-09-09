@@ -16,7 +16,7 @@ var token = '[put your bot token here]';
 function setWebhook() {
   let Bot = new TelegramBot();
   let result = Bot.request('setWebhook', {
-    url: 'https://script.google.com/macros/s/[Google Apps Script file ID]/exec'
+    url: 'https://script.google.com/macros/s/[Google_Apps_Script_file_ID]/exec'
   });
   Logger.log(result);
 }
