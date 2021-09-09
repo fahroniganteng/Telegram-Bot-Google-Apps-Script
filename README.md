@@ -5,7 +5,8 @@ Library for Bot Telegram with Google Apps Script
 [Demo bot on Telegram](http://t.me/FahroniGantengBot) 
 
 ### Instalation Guide
-> Video coming soon
+[![Instalation](http://img.youtube.com/vi/BxP9oMzFRhs/0.jpg)](https://youtu.be/BxP9oMzFRhs)
+> Video in indonesiab language
 
 1. Create bot form telegram
   - Open telegram
