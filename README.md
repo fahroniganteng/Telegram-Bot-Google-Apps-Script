@@ -35,7 +35,7 @@ Library for Bot Telegram with Google Apps Script
 > - Change version to **New version**
 > - And then click **Deploy**
 >   
-> If you create a **new deployment**, you have to run the **webhook function again** because the website address (url) will be change.
+> If you create a **new deployment**, you have to run the **function setWebhook()** again because the website address (url) will be change.
 
 ### License and credits
 My code under MIT license, other libraries follow their own license.
