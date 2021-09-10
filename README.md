@@ -8,10 +8,10 @@ Library for Bot Telegram with Google Apps Script
 [![Instalation](http://img.youtube.com/vi/BxP9oMzFRhs/0.jpg)](https://youtu.be/BxP9oMzFRhs)
 > Video in indonesian language
 
-1. Create bot form telegram
+1. Create bot from telegram
   - Open telegram
   - Find BotFather
-  - Follow the command create a new bot
+  - Follow the instruction to create a new bot
 2. Copy token to access the HTTP API to variable token
   ```javascript
   var token = '[put your bot token here]';
@@ -31,7 +31,7 @@ Library for Bot Telegram with Google Apps Script
 > **NOTE :**  
 > If you change the code in the google apps script, make sure to edit deploy to the new version  
 > - Click **Manage Deployment**
-> - Click edit **(icon pencil)**
+> - Click edit **(pencil icon on top right corner)**
 > - Change version to **New version**
 > - And then click **Deploy**
 >   
