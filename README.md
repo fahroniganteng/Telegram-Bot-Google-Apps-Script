@@ -6,7 +6,7 @@ Library for Bot Telegram with Google Apps Script
 
 ### Instalation Guide
 [![Instalation](http://img.youtube.com/vi/BxP9oMzFRhs/0.jpg)](https://youtu.be/BxP9oMzFRhs)
-> Video in indonesiab language
+> Video in indonesian language
 
 1. Create bot form telegram
   - Open telegram
@@ -27,6 +27,15 @@ Library for Bot Telegram with Google Apps Script
 5. Run function setWebhook()  
   make sure **success**
 6. Telegram bot is ready to use.
+
+> **NOTE :**  
+> If you change the code in the google apps script, make sure to edit deploy to the new version  
+> - Click **Manage Deployment**
+> - Click edit **(icon pencil)**
+> - Change version to **New version**
+> - And then click **Deploy**
+>   
+> If you create a **new deployment**, you have to run the **webhook function again** because the website address (url) will be change.
 
 ### License and credits
 My code under MIT license, other libraries follow their own license.
