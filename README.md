@@ -12,7 +12,7 @@ Library for Bot Telegram with Google Apps Script
   - Open telegram
   - Find BotFather
   - Follow the instruction to create a new bot
-2. Copy token to access the HTTP API to variable token
+2. Copy token to access the HTTP API (telegram bot token) to variable token
   ```javascript
   var token = '[put your bot token here]';
   ```
